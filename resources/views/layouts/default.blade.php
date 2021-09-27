@@ -33,17 +33,20 @@
 				</li>
                 @yield('breadcrumb')
             </ul>
-
+            <p>{{$name}}</p>
         </div>
 
-        <div class="row">
-            @include('includes.footer')
-        </div>
+
 
     </div>
-
+    <div class="footer">
+        <div class="container">
+            @include('includes.footer')
+        </div>
+    </div>
 
 </div>
+
 
 <!-- Bootstrap core JavaScript
 ================================================== -->

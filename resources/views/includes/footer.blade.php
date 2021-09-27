@@ -1,6 +1,23 @@
 
 <footer>
-	© {{ __('misc.copyright') }}
+  <div class="flex">
+    <div class="copyright">
+      © {{ __('misc.copyright') }} 
+    </div>
+    <div class="about-footer">
+      <a href="#">Over ons</a>
+    </div>
+    <div class="contact-footer">
+      <p>Telefoonnummer: 1234567890</p>
+      <p>E-mail adress: 123456789@gmail.com</p>
+    </div>
+
+    <div class="socials-footer">
+      <a href="https://instagram.com/"><i class="fab fa-instagram"></i> Instagram</a>
+      <a href="https://facebook.com/"><i class="fab fa-facebook-square"></i> Facebook</a>
+      <a href="hhttps://twitter.com/"><i class="fab fa-twitter"></i> Twitter</a>
+    </div>
+  </div>
 </footer>
 
 
@@ -20,7 +37,7 @@
 <!-- Einde analytics code -->
 
 <script language="Javascript" type="text/javascript"> 
- <!-- 
+ //<!-- 
  if (top.location!= self.location) { 
   top.location = self.location.href
  } 
