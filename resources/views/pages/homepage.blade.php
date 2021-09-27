@@ -24,6 +24,7 @@
         <div class="container">
             <!-- Example row of columns -->
             <div class="row">
+            <p>{{$name}}</p>
 
                 @foreach($brands->chunk($chunk_size) as $chunk)
                     <div class="col-md-4">
@@ -55,6 +56,8 @@
                 @endforeach
 
             </div>
+
+
         </div>
     </div>
         

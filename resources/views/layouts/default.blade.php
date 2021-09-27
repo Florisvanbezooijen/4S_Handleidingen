@@ -33,7 +33,6 @@
 				</li>
                 @yield('breadcrumb')
             </ul>
-            <p>{{$name}}</p>
         </div>
 
 
